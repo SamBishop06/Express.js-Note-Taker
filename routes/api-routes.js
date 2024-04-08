@@ -1,6 +1,6 @@
 // This file contains the routes for the API.
 const router = require("express").Router();
-const uuidv1 = require("uuid/v1");
+const { v1: uuidv1 } = require("uuid");
 const fs = require("fs");
 
 // Route to fetch notes from the database
